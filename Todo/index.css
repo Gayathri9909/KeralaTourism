@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image:linear-gradient(to right,rgb(135, 104, 125),aliceblue);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.addtask {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.input {
+    padding: 5px;
+    font-size: 1em;
+    width: 300px;
+}
+
+.button {
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.tasklist {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.taskitem {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    gap: 60px;
+}
+
+.taskitem:last-child {
+    border-bottom: none;
+}
+
+.taskitem .checkboxcontainer {
+    margin-right: 10px;
+}
+
+.taskitem .taskname {
+    flex: 1;
+}
+
+.taskitem .deletebtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+
